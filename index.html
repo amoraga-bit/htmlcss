@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inteligencia Artificial — El Futuro es Ahora</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <!-- ✅ HEADER: contiene el h1 principal del sitio -->
+  <header>
+    <h1>🤖 Inteligencia Artificial</h1>
+    <p class="subtitulo">Explorando la tecnología que está cambiando el mundo</p>
+  </header>
+
+  <!-- ✅ NAV: navegación con lista de enlaces internos -->
+  <nav>
+    <ul>
+      <li><a href="#que-es">¿Qué es la IA?</a></li>
+      <li><a href="#aplicaciones">Aplicaciones</a></li>
+      <li><a href="#modelos">Modelos destacados</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ✅ MAIN: contenido principal con sections, articles y aside -->
+  <main>
+
+    <!-- SECTION 1: definición -->
+    <section id="que-es">
+      <h2>¿Qué es la Inteligencia Artificial?</h2>
+      <article>
+        <h3>Definición</h3>
+        <p>
+          La Inteligencia Artificial (IA) es la rama de la informática que busca crear sistemas
+          capaces de realizar tareas que normalmente requieren inteligencia humana: reconocer
+          imágenes, entender lenguaje natural, tomar decisiones y aprender de la experiencia.
+        </p>
+	<img
+          src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600"
+          alt="Representación visual de inteligencia artificial con circuitos y luz azul"
+          width="500"
+        />
+      </article>
+
+      <article>
+        <h3>Breve historia</h3>
+        <p>
+          El término fue acuñado en 1956 por John McCarthy. Desde entonces la IA pasó por varios
+          ciclos de auge y "inviernos". El auge del <em>deep learning</em> a partir de 2012 y la
+          disponibilidad de grandes volúmenes de datos impulsaron la era moderna de la IA generativa.
+        </p>
+      </article>
+    </section>
+
+    <!-- SECTION 2: aplicaciones -->
+    <section id="aplicaciones">
+      <h2>Aplicaciones en el mundo real</h2>
+
+      <article>
+        <h3>Salud</h3>
+        <p>
+          Algoritmos de visión computacional detectan tumores en radiografías con precisión comparable
+          a especialistas médicos. Herramientas como AlphaFold de DeepMind resolvieron el problema del
+          plegamiento de proteínas, acelerando el descubrimiento de fármacos.
+        </p>
+      </article>
+
+      <article>
+        <h3>Transporte</h3>
+        <p>
+          Los vehículos autónomos (Tesla Autopilot, Waymo) usan redes neuronales para percibir el
+          entorno y tomar decisiones de conducción en tiempo real, reduciendo accidentes causados por
+          error humano.
+        </p>
+      </article>
+
+      <article>
+        <h3>Educación</h3>
+        <p>
+          Los tutores inteligentes adaptan el ritmo y los contenidos al nivel de cada estudiante.
+          Plataformas como Khan Academy integran IA para detectar lagunas de conocimiento y sugerir
+          ejercicios personalizados.
+        </p>
+      </article>
+
+      <!-- ✅ ASIDE: información complementaria/lateral -->
+      <aside>
+        <h3>💡 ¿Sabías que…?</h3>
+        <ul>
+          <li>GPT-4 fue entrenado con más de 1 billón de parámetros.</li>
+          <li>El mercado global de IA superará los <strong>1.8 billones de dólares</strong> en 2030.</li>
+          <li>El 77 % de los dispositivos que usamos hoy ya incorporan alguna forma de IA.</li>
+          <li>La IA puede componer música, escribir código y diseñar proteínas desde cero.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- SECTION 3: modelos -->
+    <section id="modelos">
+      <h2>Modelos de IA destacados</h2>
+
+      <article>
+        <h3>ChatGPT / GPT-4o — OpenAI</h3>
+        <p>
+          Modelo multimodal de lenguaje grande capaz de procesar texto, imágenes y audio.
+          Es uno de los asistentes conversacionales más utilizados en el mundo con más de
+          200 millones de usuarios activos semanales.
+        </p>
+      </article>
+
+      <article>
+        <h3>Gemini — Google DeepMind</h3>
+        <p>
+          Familia de modelos nativamente multimodales diseñados para integrarse con el ecosistema
+          de Google: búsqueda, Workspace, Android y servicios en la nube.
+        </p>
+      </article>
+
+      <article>
+        <h3>Claude — Anthropic</h3>
+        <p>
+          Modelo centrado en seguridad y alineación con valores humanos. Destaca por su gran
+          ventana de contexto (hasta 200 000 tokens) y su razonamiento cuidadoso en tareas complejas.
+        </p>
+      </article>
+    </section>
+
+    <!-- SECTION 4: formulario de contacto -->
+    <section id="contacto">
+      <h2>Formulario de Contacto</h2>
+      <p>¿Tienes preguntas o quieres colaborar? Escríbenos.</p>
+
+      <!-- ✅ FORMULARIO: 5 campos, labels vinculados, required, botón de envío -->
+      <form action="#" method="post">
+
+        <div class="campo">
+          <label for="nombre">Nombre completo *</label>
+          <input type="text" id="nombre" name="nombre"
+                 placeholder="Ej. Ana López" required />
+        </div>
+
+        <div class="campo">
+          <label for="email">Correo electrónico *</label>
+          <input type="email" id="email" name="email"
+                 placeholder="ejemplo@correo.com" required />
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono"
+                 placeholder="503 7072 0101" />
+        </div>
+
+        <div class="campo">
+          <label for="tema">Tema de interés *</label>
+          <select id="tema" name="tema" required>
+            <option value="">-- Selecciona una opción --</option>
+            <option value="machine-learning">Machine Learning</option>
+            <option value="vision">Visión por Computadora</option>
+            <option value="nlp">Procesamiento de Lenguaje Natural</option>
+            <option value="robotica">Robótica e IA</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje" name="mensaje" rows="5"
+                    placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ✅ FOOTER: información de cierre del sitio -->
+  <footer>
+    <p>🌐 Página Web con HTML5 y CSS3. Actividad Evaluada — Desarrollo Web Básico</p>
+    <p>Creado como proyecto educativo sobre Inteligencia Artificial.</p>
+    <nav aria-label="Footer nav">
+      <a href="#que-es">Inicio</a> |
+      <a href="#aplicaciones">Aplicaciones</a> |
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
